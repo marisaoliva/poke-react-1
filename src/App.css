@@ -1,0 +1,38 @@
+.app {
+  text-align: center;
+}
+
+.app .pokemon-list {
+  float: left;
+  width: 50%;
+}
+
+.app .pokemon-detail {
+  float: right;
+  width: 50%;
+}
+.pokemon-list {
+}
+
+.pokemon-list .pokemon-list__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pokemon-list-item {
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  height: 30px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.pokemon-list-item:hover {
+  background-color: orange;
+}
